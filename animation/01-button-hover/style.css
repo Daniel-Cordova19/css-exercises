@@ -16,4 +16,10 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  box-shadow: 0 0 50px rgba(26, 67, 75, 0.822);
+  
+}
+
+button:hover {
+  transform: scale(1.6) translate(0.8rem, 0.8rem);
 }
