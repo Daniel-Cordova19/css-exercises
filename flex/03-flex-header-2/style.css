@@ -13,8 +13,10 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
+  justify-content: space-between;
+  padding: 8px;
   align-items: center;
-  justify-content: space-around;
+  
 }
 
 .profile-image {
@@ -49,14 +51,21 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  align-items: center;
-  margin-right: 5rem;
-  margin-left: 1rem;
-  flex-direction: row;
-
+  gap: 10px;
 }
 
-ul li{
- padding: 1rem;
- flex:start;
+.left {
+display: flex;
+align-items: center;
+margin: 0;
+padding: 8px;
+gap: 1rem;
 }
+
+.rigth {
+  display: flex;
+margin: 0;
+padding: 8px;
+gap: 1rem;
+}
+
